@@ -122,7 +122,14 @@ html {
   
   .social-icons a {
       color: #fff; 
-      margin: 10px; 
+  }
+  footer > .social-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    justify-content:space-around;
   }
   
   .menu-toggle {
@@ -167,7 +174,7 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     position: absolute;
     bottom: 53.5rem; 
-    left: 50%; 
+    left: 48.5%; 
     transform: translateX(-50%);
     transition: 0.5s;
     text-align: center;
