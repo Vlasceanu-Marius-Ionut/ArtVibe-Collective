@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inscriereButton = document.querySelector('.scrissibuton button');
     if (inscriereButton) {
         inscriereButton.addEventListener('click', () => {
-            window.location.href = '/indexes/voluntariat.html';
+            window.location.href = '/indexes/volunt.html';
         });
     }
 
