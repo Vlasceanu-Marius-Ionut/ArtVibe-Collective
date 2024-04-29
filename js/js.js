@@ -51,8 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
     menuToggle.addEventListener('click', () => {
         navigation.classList.toggle('active');
     });    
-
-    // Adaugăm event listener pentru butonul din .scrissibuton
     const inscriereButton = document.querySelector('.scrissibuton button');
     inscriereButton.addEventListener('click', () => {
         window.location.href = '/indexes/voluntariat.html';

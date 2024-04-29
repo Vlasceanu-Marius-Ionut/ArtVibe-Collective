@@ -881,6 +881,20 @@ button:hover {
         display: block;
         cursor: pointer;
     }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        text-align: center;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+    }
+    .navigation ul > li > a{
+        font-size: 16px;
+        
+    }
 
     body {
         font-size: 14px;
@@ -907,6 +921,20 @@ button:hover {
 
     body {
         font-size: 14px;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        text-align: center;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+    }
+    .navigation ul > li > a{
+        font-size: 16px;
+        
     }
 
     main {
@@ -942,9 +970,13 @@ button:hover {
         background-color: #198754;
         width: 100%;
         text-align: center;
-        top: 60px;
+        top: 160px;
         left: 0;
         z-index: 1000;
+    }
+    .navigation ul > li > a{
+        font-size: 14px;
+        
     }
     h2 {
         color: red;
