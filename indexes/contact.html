@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="" crossorigin="anonymous">
+
+    <title>ArtVibe Collective/Despre Noi</title>
+</head>
+
+<body class="fade-in" id="desprenoi">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href=""><img src="../imger/logo.jpg" alt="Artvibe Collective"></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="/index.html">ACASA</a></li>
+                    <li><a href="./indexes/desprenoi.html">DESPRE NOI</a></li>
+                    <li><a href="./indexes/voluntariat.html">VOLUNTARIAT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">DONATII</a></li>
+                    <li><a href="">EVENIMENTE</a></li>
+                    <li><a href="">REGIUNI</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href=""><i class="gg-instagram"></i></a>
+                <a href=""><i class="gg-facebook"></i></a>
+                <a href=""><i class="gg-youtube"></i></a>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header><!--SCA A FII MUTATA-->
+    </header>
+    <main id="maincontacts">
+        <h1>CONTACTE</h1>
+        <section id="containerhartas">
+            <h2>Harta</h2>
+            <div class="containerharta">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1714391419585!6m8!1m7!1sNgNTCjb_uXYiqYhcfvSpxQ!2m2!1d44.44772211787357!2d26.0832722582875!3f12.810261244145693!4f6.778927478023903!5f0.7820865974627469"
+                    width="50%" height="100%" style="border:2px solid black;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1424.1285665080236!2d26.082837785269675!3d44.448398397082194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b20192adad1f61%3A0x1237799833dac349!2sClubul%20Sportiv%20Universitar%20%E2%80%9DA.S.E.%E2%80%9D!5e0!3m2!1sro!2sro!4v1714391574946!5m2!1sro!2sro"
+                    width="50%" height="100%" style="border:2px solid black;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+        <section id="containercontactdate">
+            <div class="containerdatecontact">
+                <h3>Aveti intrebari?</h3>
+                <form id="contactForm" method="post" action="submit.php">
+                    <div class="form-group">
+                        <label for="fullname">Nume și Prenume:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesaj:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Trimite</button>
+                </form>
+                <div class="strada">
+                    <p>Strada Ocidentului Nr.7</p>
+                    <P>artvibe_contact@arvb.ro</P>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button id="scrollToTopBtn" onclick="scrollToTop()">^</button>
+        <h3 class="asc">Asociație cu parteneriate</h3>
+        <div class="imaginisirestu">
+            <a href="index.html"><img src="../imger/logo.jpg" alt="ASASE"></a>
+            <a href="https://ase.ro/"><img src="../imger/csu.png" alt="CSU"></a>
+            <a href="https://csu.ase.ro/"><img src="../imger/Logo_ASE.png" alt="ASE"></a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="gg-instagram"></i></a>
+            <a href="#"><i class="gg-facebook"></i></a>
+            <a href="#"><i class="gg-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="../js/js.js"></script>
+</body>

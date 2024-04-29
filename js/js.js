@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const menuToggle = document.querySelector('.menu-toggle');
     const navigation = document.querySelector('.navigation ul');
-
+    
     menuToggle.addEventListener('click', () => {
         navigation.classList.toggle('active');
-    });
+    });    
 
     // Adaugăm event listener pentru butonul din .scrissibuton
     const inscriereButton = document.querySelector('.scrissibuton button');
