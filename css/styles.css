@@ -832,7 +832,7 @@ textarea {
     border-radius: 4px;
 }
 
-button {
+label > button {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     background-color: rgb(193, 23, 23);
@@ -857,7 +857,61 @@ button:hover {
 }
 
 /*CONTACT-end*/
+/*DONATII-MAIN*/
+/* Exemplu de stilizare CSS pentru pagina de donații */
 
+.donation-section {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.donation-header h1 {
+    font-size: 36px;
+    color: #333;
+}
+.donation-header>p{
+    color: black;
+}
+.donation-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #b31500;
+}
+
+/*DONATII-MAIN-END*/
 
 @media (max-width: 760px) {
     .lines {
