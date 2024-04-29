@@ -74,3 +74,22 @@ form.addEventListener('submit', function(event) {
         alert('Vă rugăm să completați toate câmpurile.');
     }
 });
+//img zoom
+
+document.addEventListener('DOMContentLoaded', function () {
+    const images = document.querySelectorAll('.region img');
+    const zoomOverlay = document.getElementById('zoomOverlay');
+    const zoomedImage = document.getElementById('zoomedImage');
+
+    images.forEach(img => {
+        img.addEventListener('click', () => {
+            const src = img.getAttribute('src');
+            zoomedImage.setAttribute('src', src);
+            zoomOverlay.style.display = 'flex';
+        });
+    });
+
+    zoomOverlay.addEventListener('click', () => {
+        zoomOverlay.style.display = 'none';
+    });
+});
