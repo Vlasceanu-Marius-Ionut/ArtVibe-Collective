@@ -27,6 +27,21 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(animation);
     }
 
+
+    const contactButton = document.getElementById('contactor');
+    if (contactButton) {
+        contactButton.addEventListener('click', function() {
+            window.location.href = '/indexes/contact.html';
+        });
+    }
+
+    const donateButton = document.getElementById('donat');
+    if (donateButton) {
+        donateButton.addEventListener('click', function() {
+            window.location.href = '/indexes/donatii.html';
+        });
+    }
+
     // Funcția de derulare lină către începutul paginii
     function scrollToTop() {
         window.scrollTo({
@@ -40,13 +55,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (scrollToTopBtn) {
         scrollToTopBtn.addEventListener('click', scrollToTop);
     }
-
-    // Eveniment pentru link-urile care navighează către ancore interne
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = this.getAttribute('href');
-            smoothScroll(target, 1000);
+            smoothScroll(target, 1500);
         });
     });
 
@@ -85,25 +98,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-
-    // Eveniment pentru zoom-ul imaginilor
-    const images = document.querySelectorAll('.region img');
-    const zoomOverlay = document.getElementById('zoomOverlay');
-    const zoomedImage = document.getElementById('zoomedImage');
-    
-    images.forEach(img => {
-        img.addEventListener('click', () => {
-            const src = img.getAttribute('src');
-            if (zoomedImage && zoomOverlay) {
-                zoomedImage.setAttribute('src', src);
-                zoomOverlay.style.display = 'flex';
-            }
-        });
-    });
-
-    if (zoomOverlay) {
-        zoomOverlay.addEventListener('click', () => {
-            zoomOverlay.style.display = 'none';
-        });
-    }
-});
+})    

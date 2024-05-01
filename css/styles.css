@@ -442,7 +442,7 @@ footer img {
     width: 10vw;
     cursor: pointer;
 }
-/*VOLUNTARIAT*/
+/*VOLUNTARIAT------------------------------------------------------*/
 #voluntariat{
     display: flex;
     flex-direction: column;
@@ -574,7 +574,7 @@ article {
     border-radius: 5px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/*VOLUNTARIAT*/
+/*VOLUNTARIAT-----------------------------------------------*/
 
 /*DESPRENOI*/
 #desprenoibody{
@@ -1028,155 +1028,4 @@ input[type="email"] {
 }
 
 /*REGIUNI-MAIN-END*/
-
-@media (max-width: 1500px) {
-    header {
-        width: 100%;
-        height: 22vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-    }
-
-    nav {
-        width: 50%;
-    }
-
-    .navigation ul {
-        display: none;
-        position: absolute;
-        background-color: #198754;
-        width: 100%;
-        text-align: center;
-        top: 160px;
-        left: 0;
-        z-index: 1000;
-    }
-
-    #regiuni {
-        width: 100%;
-    }
-
-    .image1 img {
-        width: 80%;
-        height: 80vh;
-    }
-
-    .image1 {
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navigation ul > li > a {
-        font-size: 14px;
-    }
-
-    h2 {
-        color: red;
-        font-size: 18px;
-    }
-
-    .navigation ul.active {
-        display: block;
-    }
-
-    .navigation ul li {
-        display: block;
-        margin: 15px 0;
-    }
-
-    .social-icons {
-        display: none;
-    }
-
-    .menu-toggle .line {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 5px;
-    }
-
-    #SmallAboutUs {
-        height: 60vh;
-        display: flex;
-        text-align: center;
-    }
-
-    .buncofPs p {
-        font-size: 17px;
-    }
-
-    main {
-        padding: 30px;
-    }
-
-    #secitonWithFirstPics {
-        height: 60vh;
-    }
-
-    .grider {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        margin-bottom: 100px;
-    }
-
-    .grider img {
-        width: 100%;
-        height: auto;
-    }
-
-    #CONTACT {
-        padding: 100px;
-        overflow: hidden;
-    }
-
-    footer {
-        height: auto;
-    }
-}
-
 /* Media query pentru rezoluții mai mici */
-
-@media (max-width: 768px) {
-    header {
-        height: 15vh;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    .navigation ul {
-        top: 110px;
-    }
-
-    .image1 img {
-        height: auto;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-
-    .grider {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
-        margin-bottom: 50px;
-    }
-
-    #CONTACT {
-        padding: 55px;
-    }
-}

@@ -1,0 +1,565 @@
+@media (width < 1501px) {
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+
+    .navigation ul.active {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .menu-toggle .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+    }
+
+    #SmallAboutUs {
+        height: 60vh;
+        display: flex;
+        text-align: center;
+    }
+
+    .buncofPs {
+        width: auto;
+        height: 50vh;
+        overflow: auto;
+    }
+
+    .buncofPs p {
+        font-size: 16px;
+        line-height: 2rem;
+        word-spacing: .2rem;
+    }
+
+    .grider {
+        width: 100%;
+    }
+    .grider img{
+        width: 100%;
+    }
+    .scrissibuton >p:first-child{
+       font-size: 2.5rem;
+    }
+    .scrissibuton>p {
+        margin: 10px;
+    }
+    .volbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .imgerbox{
+        width: 30%;
+    }
+    .image1{
+        padding: 2%;
+        height: 70%;
+    }
+    .image1,img{
+        width: 100%;
+    }
+    .detalii{
+        padding:2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+    }
+    .detalii>p{
+        font-size: 25px;
+    }
+    .btnr > button{
+       width: 300px;
+       height: 0%;
+       font-size: 30px;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+    }
+}
+@media(width < 1110px){
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .imgcontainer img{
+        display: none;
+
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .text-container {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+
+    .navigation ul.active {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .menu-toggle .line {
+        width: 50px;
+        height: 5px;
+        background-color: #fff;
+        margin: 13%;
+    }
+    #SmallAboutUs {
+        height: 60vh;
+        display: flex;
+        text-align: center;
+    }
+
+    .buncofPs {
+        width: auto;
+        height: 50vh;
+        overflow: auto;
+    }
+
+    .buncofPs p {
+        font-size: 16px;
+        line-height: 2rem;
+        word-spacing: .2rem;
+    }
+
+    .grider {
+        width: 100%;
+        padding: 4.5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grider img{
+        width: 100%;
+    }
+    .scrissibuton >p:first-child{
+       font-size: 2.5rem;
+    }
+    .volbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        padding: 2%;
+        height: 68%;
+    }
+    .imgerbox > img{
+        width: 150px;
+    }
+    .image1,img{
+        width: 100%;
+    }
+    .detalii{
+        padding:2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+    }
+    .detalii>p{
+        font-size: 25px;
+    }
+    .btnr > button{
+       width: 300px;
+       height: 0%;
+       font-size: 30px;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+        background-color: rgb(231, 60, 3);
+        color: rgb(255, 255, 255);
+        padding: 1%;
+    }
+    .underline{
+        display: none;
+    }
+}
+@media(width < 890px) {
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .imgcontainer img{
+        display: none;
+
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .text-container {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+
+    .navigation ul.active {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .menu-toggle .line {
+        width: 50px;
+        height: 5px;
+        background-color: #fff;
+        margin: 13%;
+    }
+    #SmallAboutUs {
+        height: 75vh;
+        display: flex;
+        text-align: center;
+    }
+
+    .buncofPs {
+        width: 100%;
+        height: 70vh;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buncofPs p {
+        font-size: 18px;
+        line-height: 2rem;
+        word-spacing: .2rem;
+        width: 80%;
+    }
+
+    .grider {
+        width: 100%;
+        padding: 4.5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grider img{
+        width: 100%;
+    }
+    .scrissibuton >p:first-child{
+       font-size: 2.5rem;
+    }
+    .volbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        padding: .2%;
+        height: 60%;
+    }
+    .image1 > img{
+        width: 100%;
+    }
+    #CONTACT {
+        height: auto;
+    }
+    .detalii{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+        padding: 40px;
+      
+        
+    }
+    .detalii>p{
+        font-size: 20px;
+    }
+    .detalii .btnr button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 70%;
+        padding: 2px;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+        background-color: rgb(231, 60, 3);
+        color: rgb(255, 255, 255);
+        padding: 1%;
+    }
+    .donatii{
+        display: flex;
+        gap: 1px;
+    }
+    #voluntari img{
+        display: none;
+    }
+}
+@media(width < 700px) {
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .imgcontainer img{
+        display: none;
+
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .text-container {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+
+    .navigation ul.active {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .menu-toggle .line {
+        width: 50px;
+        height: 5px;
+        background-color: #fff;
+        margin: 13%;
+    }
+    #SmallAboutUs {
+        height: 75vh;
+        display: flex;
+        text-align: center;
+    }
+
+    .buncofPs {
+        width: 100%;
+        height: 70vh;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buncofPs p {
+        font-size: 18px;
+        line-height: 2rem;
+        word-spacing: .2rem;
+        width: 80%;
+    }
+
+    .grider {
+        width: 100%;
+        padding: 4.5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grider img{
+        width: 100%;
+    }
+    .scrissibuton >p:first-child{
+       font-size: 1.5rem;
+    }
+    .scrissbuton{
+        padding: 0;
+    }
+    .scrissbuton > p{
+        font-size: 4px;
+    }
+    .volbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        padding: .2%;
+        height: 60%;
+    }
+    .image1 > img{
+        width: 100%;
+    }
+    .detalii{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+        padding: 40px;
+      
+        
+    }
+    .detalii>p{
+        font-size: 20px;
+    }
+    .detalii .btnr button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 50%;
+        padding: 1px;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+        background-color: rgb(231, 60, 3);
+        color: rgb(255, 255, 255);
+        padding: 1%;
+    }
+    .donatii{
+        display: flex;
+        gap: 1px;
+    }
+    #voluntari img{
+        display: none;
+    }
+    .imgerbox{
+        display: none;
+    }
+    .imgerbox img{
+        display: none;
+    }
+    
+}
