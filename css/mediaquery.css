@@ -128,7 +128,9 @@
         align-items: center;
         justify-content: center;
     }
- 
+    body{
+        background-color: white;
+    }
     .imgcontainer img{
         display: none;
 
@@ -254,7 +256,7 @@
         width: 100%;
     }
     footer{
-        height: 30vh;
+        height: 41vh;
     }
     .imaginisirestu{
         display: flex;
