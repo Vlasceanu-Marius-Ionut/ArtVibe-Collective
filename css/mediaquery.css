@@ -619,6 +619,10 @@
         text-align: center;
         width: 100%;
     }
+    #scrollToTopBtn{
+        position: absolute;
+        left:65%;
+    }
     
 }
 
@@ -704,6 +708,10 @@
         justify-content: center;
         width: 100%;
     }
+    #scrollToTopBtn{
+        position: absolute;
+        left:65%;
+    }
 }
 @media(width < 415px){
     .image1{
@@ -721,5 +729,9 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:65%;
     }
 }
