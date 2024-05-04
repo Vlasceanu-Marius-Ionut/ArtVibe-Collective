@@ -128,9 +128,6 @@
         align-items: center;
         justify-content: center;
     }
-    body{
-        background-color: white;
-    }
     .imgcontainer img{
         display: none;
 
