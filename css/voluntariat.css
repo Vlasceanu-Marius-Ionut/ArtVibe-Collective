@@ -1,4 +1,5 @@
-@media (width < 1501px) {
+/* Media query pentru ecrane cu lățime mai mică de 1501px */
+@media (max-width: 1500px) {
     * {
         margin: 0;
         padding: 0;
@@ -57,100 +58,123 @@
         background-color: #fff;
         margin: 5px;
     }
-    footer, img{
+
+    footer,
+    img {
         width: 100%;
     }
-    footer{
+
+    footer {
         height: 48vh;
     }
-    .logo img{
+
+    .logo img {
         width: 150px;
         height: 15vh;
     }
-    #mainVol{
+
+    #mainVol {
         width: 95%;
         background-color: rgb(132, 36, 1);
-     
-
     }
-    #inCeConsta{
+
+    #inCeConsta {
         width: 100%;
     }
+
     .educatier,
     .protecMed,
-    .sanatate{
+    .sanatate {
         width: 100%;
         height: 70vh;
         padding: 100px;
     }
-    .desprez{
+
+    .desprez {
         background-color: rgb(195, 54, 3);
         height: 50vh;
     }
-    .h1{
+
+    .h1 {
         margin: 0;
     }
-    article{
+
+    article {
         margin: 0;
         padding: 0;
         gap: 2rem;
         display: flex;
-        
     }
-    #disspaear{
+
+    #disspaear {
         display: block;
-        background-color: rgba(255, 255, 255, 0);   
+        background-color: rgba(255, 255, 255, 0);
         color: white;
         font-size: 30px;
         width: 100%;
         text-align: center;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
         position: absolute;
-        left:80%;
+        left: 80%;
     }
-    footer>h1{
+
+    footer > h1 {
         text-align: center;
         width: 100%;
     }
-    .asc{
+
+    .asc {
         width: 100%;
         text-align: center;
     }
 }
-@media (width < 1173px){
+
+/* Media query pentru ecrane cu lățime mai mică de 1173px */
+@media (max-width: 1172px) {
     .educatier,
     .protecMed,
-    .sanatate, p{
+    .sanatate,
+    p {
         font-size: 17px;
     }
+
     #inCeConsta p {
         font-size: 15px;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
         position: absolute;
-        left:80%;
+        left: 80%;
     }
-    footer>h1{
+
+    footer > h1 {
         text-align: center;
         width: 100%;
     }
 }
-@media (width < 1001px){
+
+/* Media query pentru ecrane cu lățime mai mică de 1001px */
+@media (max-width: 1000px) {
     #inCeConsta img {
         width: 40%;
     }
-    html{
+
+    html {
         font-size: 16px;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
         position: absolute;
-        left:80%;
+        left: 80%;
     }
-    footer>h1{
+
+    footer > h1 {
         text-align: center;
         width: 100%;
     }
+
     .desprez {
         background-color: rgb(195, 54, 3);
         height: 50vh;
@@ -158,123 +182,149 @@
         align-items: center;
         justify-content: center;
     }
-    .desprez>p{
+
+    .desprez > p {
         text-align: center;
         display: flex;
         align-items: center;
     }
-    #inCeConsta  p{
+
+    #inCeConsta p {
         font-size: 18px;
         height: 50vh;
         overflow: hidden;
     }
-    h1{
+
+    h1 {
         font-size: 50px;
     }
-    #mainVol{
-        width: 100%;
-    }
-    footer, img{
-        width: 100%;
-    }
-    footer{
-        height: 48vh;
-    }
-    #scrollToTopBtn{
-        width: 40px;
-        height: 40px;
-        font-size: 15px;
-        position: absolute;
-        bottom: 270px;
-    }
-    footer>h1{
-        text-align: center;
-        width: 100%;
-    }
-    .asc{
 
-        font-size: 18px;
-    }
-}
-@media (width < 701px){
-    #inCeConsta img {
-        width: 45%;
-    }
     #mainVol {
         width: 100%;
     }
-    #inCeConsta  p{
-        font-size: 18px;
-        height: 60vh;
-        overflow-y: hidden;
-    }
-    .educatier,
-    .protecMed,
-    .sanatate, p{
-        font-size: 17px;
-        padding: 0px;
-    }
-    article{
-        width: 100%;
-        
-    }
-    #inCeConsta{
+
+    footer,
+    img {
         width: 100%;
     }
-    #mainVol{
-        width: 100%;
-        padding: 0;
-    }
-    footer, img{
-        width: 100%;
-    }
-    footer{
+
+    footer {
         height: 48vh;
         display: flex;
         align-items: start;
         flex-direction: column;
         gap: 5%;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
         position: absolute;
-        left:80%;
+        bottom: 270px;
     }
-    footer>h1{
+
+    footer > h1 {
         text-align: center;
         width: 100%;
     }
+
+    .asc {
+        font-size: 18px;
+    }
+}
+
+/* Media query pentru ecrane cu lățime mai mică de 701px */
+@media (max-width: 700px) {
+    #inCeConsta img {
+        width: 45%;
+    }
+
+    #mainVol {
+        width: 100%;
+    }
+
+    #inCeConsta p {
+        font-size: 18px;
+        height: 60vh;
+        overflow-y: hidden;
+    }
+
+    .educatier,
+    .protecMed,
+    .sanatate,
+    p {
+        font-size: 17px;
+        padding: 0px;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    #inCeConsta {
+        width: 100%;
+    }
+
+    #mainVol {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer,
+    img {
+        width: 100%;
+    }
+
+    footer {
+        height: 48vh;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    #scrollToTopBtn {
+        position: absolute;
+        left: 80%;
+    }
+
+    footer > h1 {
+        text-align: center;
+        width: 100%;
+    }
+
     form {
         width: 95%;
         padding: 5%;
         margin: 20px;
     }
 }
-@media(width < 601px){
-    *{padding: 0;
-      margin: 0;
-    }
-    html{
+
+/* Media query pentru ecrane cu lățime mai mică de 601px */
+@media (max-width: 600px) {
+    html {
         font-size: 12px;
     }
-    header{
-        width: 100%;
 
-    }
     #inCeConsta p {
         font-size: 18px;
         height: auto;
-        
     }
+
     #mainVol {
         width: 100%;
     }
-    .logo img{
+
+    .logo img {
         width: 80px;
         height: 80px;
     }
-    #disspaear{
+
+    #disspaear {
         font-size: 15px;
     }
+
     .navigation ul {
         display: none;
         position: absolute;
@@ -285,38 +335,47 @@
         z-index: 1000;
         text-align: center;
     }
-    #scrollToTopBtn{
+
+    #scrollToTopBtn {
         position: absolute;
-        left:65%;top: -27%;
+        left: 65%;
+        top: -27%;
     }
-    .educatier, .protecMed, .sanatate, p {
+
+    .educatier,
+    .protecMed,
+    .sanatate,
+    p {
         font-size: 14px;
         padding: 0px;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
     }
+
     #inCeConsta img {
         width: 55%;
         margin: 5px;
     }
 }
-@media(width < 376px){
-    header{
-        width: 100%;
 
-    }
-    #scrollToTopBtn{
+/* Media query pentru ecrane cu lățime mai mică de 376px */
+@media (max-width: 375px) {
+    #scrollToTopBtn {
         position: absolute;
-        left:65%;top: -30%;
+        left: 65%;
+        top: -30%;
     }
-    .logo img{
+
+    .logo img {
         width: 80px;
         height: 80px;
     }
-    #disspaear{
+
+    #disspaear {
         font-size: 15px;
     }
+
     .navigation ul {
         display: none;
         position: absolute;
@@ -327,30 +386,39 @@
         z-index: 1000;
         text-align: center;
     }
+
     form {
         width: 90%;
         padding: 0%;
         margin: 20px;
     }
+
     article > p {
         height: 100px;
     }
+
     #mainVol {
         width: 100%;
         padding: 0;
     }
+
     #inCeConsta p {
         font-size: 15px;
         height: 50vh;
         overflow-y: hidden;
     }
-    .educatier, .protecMed, .sanatate, p {
+
+    .educatier,
+    .protecMed,
+    .sanatate,
+    p {
         font-size: 14px;
         padding: 0px;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
     }
+
     #inCeConsta img {
         width: 45%;
         margin: 5px;
