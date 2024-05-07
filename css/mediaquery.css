@@ -119,6 +119,14 @@
     footer{
         height: 48vh;
     }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 30px;
+        width: 40%;
+        text-align: center;
+    }
 }
 @media(width < 1110px){
     header {
@@ -282,7 +290,18 @@
         align-items: center;
         justify-content: center;
     }
- 
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 20px;
+        width: 35%;
+        text-align: center;
+    }
+    .logo img{
+        width: 120px;
+        height: 12vh;
+    }
     .imgcontainer img{
         display: none;
 
@@ -337,8 +356,8 @@
         height: 75vh;
         display: flex;
         text-align: center;
+        padding: 0;
     }
-
     .buncofPs {
         width: 100%;
         height: 70vh;
@@ -563,7 +582,11 @@
         font-size: 30px;
     }
     .logo img{
-       display: none;
+        width: 100px;
+        height: 10vh;
+    }
+    #disspaear{
+        width: 50%
     }
     .btnr button {
         justify-content: center;
@@ -644,6 +667,13 @@
         font-size: 14px;
         text-align: center;
     }
+    .logo img{
+        width: 100px;
+        height: 10vh;
+    }
+    #disspaear{
+        width: 55%
+    }
     #CONTACT {
         height: 50vh;
         width: 100%;
@@ -657,9 +687,6 @@
     }
     .detalii>p{
         font-size: 20px;
-    }
-    .logo img{
-       display: none;
     }
     #contactor{
         width: 50%;
@@ -733,5 +760,23 @@
     #scrollToTopBtn{
         position: absolute;
         left:65%;
+    }
+    .logo img{
+        width: 80px;
+        height: 8vh;
+    }
+    #disspaear{
+        width: 60%;
+        margin: 10px;
+    }
+}
+@media(width < 376px){
+    .logo img{
+        width: 60px;
+        height: 6vh;
+    }
+    #disspaear{
+        width: 45%;
+        font-size: 13px;
     }
 }
