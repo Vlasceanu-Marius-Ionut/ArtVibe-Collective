@@ -97,18 +97,68 @@
         display: flex;
         
     }
+    #disspaear{
+        display: block;
+        background-color: rgba(255, 255, 255, 0);   
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:80%;
+    }
+    footer>h1{
+        text-align: center;
+        width: 100%;
+    }
+    .asc{
+        width: 100%;
+        text-align: center;
+    }
 }
 @media (width < 1173px){
     .educatier,
     .protecMed,
     .sanatate, p{
-        overflow-y: auto;
         font-size: 17px;
+    }
+    #inCeConsta p {
+        font-size: 15px;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:80%;
+    }
+    footer>h1{
+        text-align: center;
+        width: 100%;
     }
 }
 @media (width < 1001px){
     #inCeConsta img {
         width: 40%;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:80%;
+    }
+    footer>h1{
+        text-align: center;
+        width: 100%;
+    }
+    .desprez {
+        background-color: rgb(195, 54, 3);
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .desprez>p{
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     #inCeConsta  p{
         font-size: 18px;
@@ -116,15 +166,39 @@
         overflow: hidden;
     }
     h1{
-        font-size: 30px;
+        font-size: 50px;
     }
     #mainVol{
         width: 100%;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+    }
+    #scrollToTopBtn{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        position: absolute;
+        bottom: 270px;
+    }
+    footer>h1{
+        text-align: center;
+        width: 100%;
+    }
+    .asc{
+
+        font-size: 18px;
     }
 }
 @media (width < 701px){
     #inCeConsta img {
         width: 45%;
+    }
+    #mainVol {
+        width: 100%;
     }
     #inCeConsta  p{
         font-size: 18px;
@@ -135,6 +209,7 @@
     .protecMed,
     .sanatate, p{
         font-size: 17px;
+        padding: 0px;
     }
     article{
         width: 100%;
@@ -145,5 +220,133 @@
     }
     #mainVol{
         width: 100%;
+        padding: 0;
+    }
+    footer, img{
+        width: 100%;
+    }
+    footer{
+        height: 48vh;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 5%;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:80%;
+    }
+    footer>h1{
+        text-align: center;
+        width: 100%;
+    }
+    form {
+        width: 95%;
+        padding: 5%;
+        margin: 20px;
+    }
+}
+@media(width < 591px){
+    *{padding: 0;
+      margin: 0;
+    }
+    header{
+        width: 100%;
+
+    }
+    #inCeConsta p {
+        font-size: 1rem;
+        height: auto;
+        
+    }
+    #mainVol {
+        width: 100%;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    #disspaear{
+        font-size: 15px;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 140px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:65%;top: -27%;
+    }
+    .educatier, .protecMed, .sanatate, p {
+        font-size: 14px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #inCeConsta img {
+        width: 45%;
+        margin: 5px;
+    }
+}
+@media(width < 376px){
+    header{
+        width: 100%;
+
+    }
+    #scrollToTopBtn{
+        position: absolute;
+        left:65%;top: -30%;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    #disspaear{
+        font-size: 15px;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 140px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    form {
+        width: 90%;
+        padding: 0%;
+        margin: 20px;
+    }
+    article > p {
+        height: 100px;
+    }
+    #mainVol {
+        width: 100%;
+        padding: 0;
+    }
+    #inCeConsta p {
+        font-size: 15px;
+        height: 50vh;
+        overflow-y: hidden;
+    }
+    .educatier, .protecMed, .sanatate, p {
+        font-size: 14px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #inCeConsta img {
+        width: 45%;
+        margin: 5px;
     }
 }
