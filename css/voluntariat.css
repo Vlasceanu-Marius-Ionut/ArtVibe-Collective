@@ -246,7 +246,7 @@
         margin: 20px;
     }
 }
-@media(width < 591px){
+@media(width < 601px){
     *{padding: 0;
       margin: 0;
     }
@@ -255,7 +255,7 @@
 
     }
     #inCeConsta p {
-        font-size: 1rem;
+        font-size: 18px;
         height: auto;
         
     }
@@ -291,7 +291,7 @@
         flex-direction: column-reverse;
     }
     #inCeConsta img {
-        width: 45%;
+        width: 55%;
         margin: 5px;
     }
 }
