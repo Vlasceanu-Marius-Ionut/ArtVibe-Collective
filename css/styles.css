@@ -458,17 +458,16 @@ footer img {
     font-family: Arial, sans-serif; 
 }
 #mainVol {
-    width: 100%;
-    max-width: 80%;
+    width: 80%;
     margin: 100px auto;
     padding: 50px;
     background-color: #ff8800e7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.mainer { 
-    background-color: rgba(255, 255, 255, 0.418);
-    width: 100%;
+.mainer h1{
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.347);
 }
 form {
     width: 100%;
@@ -492,7 +491,7 @@ input[type="tel"],
 textarea,
 select {
     width: 100%;
-    padding: 10rem;
+    padding:.8rem;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -500,6 +499,9 @@ select {
     font-size: 16px;
     padding: none;
     overflow: hidden;
+}
+textarea{
+    overflow-y: scroll;
 }
 label::after {
     color: red;
@@ -527,6 +529,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #ce0000;
 }
+/* input[type="tel"]{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+} */
 article {
     display: flex;
     flex-direction: column;
@@ -871,7 +879,7 @@ button:hover {
 .strada{
     width: 100%;
     height: auto;
-    background-color: #fa4c2e;
+    background-color: #b92106;
     font-family: 'Times New Roman', Times, serif;
 }
 .strada > p {
