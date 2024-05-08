@@ -86,12 +86,52 @@
     .volbox p:first-child {
         font-size: 42px;
     }
+    .containerdatecontact {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 68, 0, 0.847);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px dotted;
+        overflow: hidden;
+    }
 }
 
 /* Stiluri pentru ecrane mijlocii */
 @media (max-width: 1200px) {
     header {
-        padding: 60px;
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
     }
     .volbox p:first-child {
         font-size: 39px;
@@ -114,6 +154,39 @@
 
 /* Stiluri pentru ecrane mici */
 @media (max-width: 980px) {
+    header {
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
     .volbox p:first-child {
         font-size: 32px;
     }
@@ -171,6 +244,39 @@
 
 /* Stiluri pentru ecrane foarte mici */
 @media (max-width: 797px) {
+    header {
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
     .volbox p:first-child {
         font-size: 27px;
     }
@@ -201,7 +307,6 @@
         height: 70vh;
         display: flex;
         padding: 0px;
-        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -266,7 +371,6 @@
         height: 70vh;
         display: flex;
         padding: 0px;
-        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -280,7 +384,8 @@
 }
 
 @media (max-width: 560px) {
-    #containerhartas, #containercontactdate {
+    #containerhartas,
+    #containercontactdate {
         max-width: 100%;
         display: flex;
         align-items: center;
@@ -290,7 +395,6 @@
         height: 80vh;
         padding: 10px;
     }
-}
     #disspaear {
         font-size: 20px;
     }
@@ -305,7 +409,6 @@
         height: 70vh;
         display: flex;
         padding: 0px;
-        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -326,33 +429,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
-
-.containerdatecontact {
-    width: 100%;
-    height: auto;
-    background-color: rgba(255, 68, 0, 0.847);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px dotted;
-    overflow: hidden;
-}
-
-.volbox img {
-    width: 100px;
-}
-
-.volbox p:first-child {
-    font-size: 20px;
-}
-
-.volbox,
-p {
-    font-size: 18px;
-    color: white;
-    text-align: center;
 }
 
 @media (max-width: 450px) {
@@ -433,9 +510,9 @@ p {
         color: white;
         text-align: center;
     }
-    #scrollToTopBtn{
+    #scrollToTopBtn {
         position: absolute;
-        left:70%;
+        left: 70%;
     }
     .navigation ul {
         display: none;
