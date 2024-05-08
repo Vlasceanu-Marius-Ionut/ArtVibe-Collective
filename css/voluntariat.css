@@ -1,5 +1,5 @@
 /* Media query pentru ecrane cu lățime mai mică de 1501px */
-@media (max-width: 1500px) {
+@media (width < 1500px) {
     * {
         margin: 0;
         padding: 0;
@@ -132,7 +132,7 @@
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 1173px */
-@media (max-width: 1172px) {
+@media (width < 1172px) {
     .educatier,
     .protecMed,
     .sanatate,
@@ -156,7 +156,7 @@
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 1001px */
-@media (max-width: 1000px) {
+@media (width < 1000px) {
     #inCeConsta img {
         width: 40%;
     }
@@ -235,7 +235,7 @@
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 701px */
-@media (max-width: 700px) {
+@media (width < 700px) {
     #inCeConsta img {
         width: 45%;
     }
@@ -302,7 +302,7 @@
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 601px */
-@media (max-width: 600px) {
+@media (width < 600px) {
     html {
         font-size: 12px;
     }
@@ -358,9 +358,25 @@
         margin: 5px;
     }
 }
+@media(width < 450px){
+    .educatier,
+    .protecMed,
+    .sanatate,
+    p {
+        font-size: 12px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #inCeConsta p {
+        font-size: 12px;
+        height: auto;
+    }
+}
 
 /* Media query pentru ecrane cu lățime mai mică de 376px */
-@media (max-width: 375px) {
+@media (width < 377px) {
     #scrollToTopBtn {
         position: absolute;
         left: 65%;
@@ -373,7 +389,7 @@
     }
 
     #disspaear {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .navigation ul {
@@ -403,16 +419,20 @@
     }
 
     #inCeConsta p {
-        font-size: 15px;
+        font-size: 12px;
         height: 50vh;
         overflow-y: hidden;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .educatier,
     .protecMed,
     .sanatate,
     p {
-        font-size: 14px;
+        font-size: 12px;
         padding: 0px;
         display: flex;
         align-items: center;
