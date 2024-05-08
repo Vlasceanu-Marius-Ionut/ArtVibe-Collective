@@ -370,9 +370,14 @@
         flex-direction: column-reverse;
     }
     #inCeConsta p {
-        font-size: 12px;
+        font-size: 13px;
         height: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 376px */
