@@ -80,3 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 })
+//Eveniment pentru imagini regiuni
+
+const images = document.querySelectorAll('#regiuni')
+images.forEach(img =>{
+    img.addEventListener('click',function(){
+        window.location.href ="/indexes/regiuni.html"
+    })
+})
