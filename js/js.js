@@ -88,3 +88,23 @@ images.forEach(img =>{
         window.location.href ="/indexes/regiuni.html"
     })
 })
+
+//eveniment contact :
+const contactForm = document.querySelector('#contactForm');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const fullname = document.getElementById('fullname').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        if (fullname && email && message) {
+            alert(`Mulțumim pentru mesaj, ${fullname}!`);
+            contactForm.reset(); 
+        } else {
+            alert('Vă rugăm să completați toate câmpurile.');
+        }
+    });
+}

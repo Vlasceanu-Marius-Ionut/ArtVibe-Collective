@@ -264,24 +264,7 @@ li:hover {
     align-items: center;
     justify-content: center;
 }
-button, .inscris{
-    width: 350px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 30px;
-    margin: 100px;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s;
-    background-color: #d9ff01;
-    color:orangered;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    
-}
+
 button:hover{
     transform: scale(1.1);
 }
@@ -949,6 +932,23 @@ input[type="email"] {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.838);
     height: auto;
+}
+#mainrregiuni, button, .inscris {
+    width: 275px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 41px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #d9ff01;
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Stilizare pentru secțiunile regiunilor */
 .region {

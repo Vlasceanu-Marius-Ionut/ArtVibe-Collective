@@ -415,8 +415,9 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        width: 70%;
-        padding: 2px;
+        width: 75%;
+        padding: 23px;
+        font-size: 20px;
     }
     footer, img{
         width: 100%;
@@ -771,12 +772,26 @@
     }
 }
 @media(width < 376px){
-    .logo img{
-        width: 60px;
-        height: 6vh;
+    .logo img {
+        width: 70px;
+        height: 8vh;
     }
     #disspaear{
         width: 45%;
         font-size: 13px;
     }
+    #scrollToTopBtn {
+        position: absolute;
+        left: 80%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 140px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+}
 }
