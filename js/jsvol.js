@@ -1,4 +1,32 @@
 // // jsvol.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.querySelector('form');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const nume = document.getElementById('nume').value;
+            const prenume = document.getElementById('prenume').value;
+            const email = document.getElementById('email').value;
+            const telefon = document.getElementById('telefon').value;
+            const mesaj = document.getElementById('mesaj').value;
+            const disponibilitate = document.getElementById('disponibilitate').value;
+            const interese = Array.from(document.querySelectorAll('input[name="interese[]"]:checked'))
+                                .map(item => item.value);
+            if (nume && prenume && email && mesaj) {
+                contactForm.reset();
+                alert(`Mulțumim pentru mesaj, ${nume} ${prenume}!`);
+            } else {
+                alert('Vă rugăm să completați toate câmpurile obligatorii.');
+            }
+        });
+    }
+});
+
+
+
 // document.querySelector('form').addEventListener('submit', function(event) {
 //     event.preventDefault(); // oprește trimiterea formularului în mod implicit
 
@@ -55,3 +83,5 @@
 //         alert('Toate câmpurile obligatorii trebuie completate!');
 //     }
 // }
+
+

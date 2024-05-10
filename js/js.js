@@ -108,3 +108,13 @@ if (contactForm) {
         }
     });
 }
+//eveniment voluntariat
+document.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash;
+    if (hash) {
+        const targetSection = document.querySelector(hash);
+        if (targetSection) {
+            targetSection.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+});
