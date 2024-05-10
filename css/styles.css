@@ -20,7 +20,12 @@ html {
     background: orange; 
     border-radius: 3px;
 }
-
+.fa-user{
+    font-size: 25px;
+    width: 45px;
+    text-align: start;
+    color:orangered;
+}
 @keyframes fadeInAnimation {
     from {
       opacity: 0;
@@ -122,6 +127,11 @@ html {
   
   .social-icons a {
       color: #fff; 
+  }
+  .gg-instagram,
+  .gg-facebook,
+  .gg-youtube{
+    margin-top: 20px;
   }
   footer > .social-icons{
     width: 100%;
@@ -234,6 +244,10 @@ li:hover {
     justify-content: space-around;
     
 }
+.material-symbols-outlined {
+    color: white;
+}
+
 .volbox{
     width: 70%;
     display: flex;
@@ -695,9 +709,12 @@ h1{
 .obj>p{
     font-size:18px;
 }
-span{
+i{
     text-align: start;
     width: 100%;
+    font-size: 45px;
+    color: white;
+    margin: 0;
 }
 #administrator {
     width: 100%;
