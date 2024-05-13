@@ -277,7 +277,7 @@
 }
 @media(width < 410px){
     header {
-        padding: 50px;
+        padding: 40px;
     }
     .menu-toggle {
         display: block;
@@ -288,7 +288,7 @@
     }
     .logo img{
         width: 80px;
-        height: 9vh;
+        height: 8vh;
     }
     #disspaear {
         display: block;
@@ -303,7 +303,7 @@
         position: absolute;
         background-color: #198754;
         width: 100%;
-        top: 160px;
+        top: 140px;
         left: 0;
         z-index: 1000;
         text-align: center;
@@ -323,8 +323,8 @@
     }
     form {
         width: 100%;
-        padding: 5%;
-        height: 85vh;
+        padding: 0%;
+        height: 80vh;
     }
     button{
         width: 60%;
@@ -334,6 +334,13 @@
     }
     .donation-form {
         width: 100%;
+    }
+    footer h3 {
+        font-size: 15px;
+        margin-bottom:50px;
+    }
+    footer img{
+        width: 60px;
     }
 }
 /* Stiluri pentru ecrane foarte mici */
