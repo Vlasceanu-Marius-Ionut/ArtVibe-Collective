@@ -1,0 +1,339 @@
+/* Stiluri de bază pentru ecrane mici */
+@media (max-width: 1500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-emphasis: none;
+    }
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
+    .menu-toggle .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+    }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer, img {
+        width: 100%;
+    }
+    footer {
+        height: 48vh;
+    }
+    .logo img {
+        width: 150px;
+        height: 15vh;
+    }
+    .donation-section {
+        padding: 0px;
+        text-align: center;
+    }
+    button{
+        width: 70%;
+        padding:0px;
+        height: 5vh;
+        margin-left: 13%;
+    }
+    form{
+        width: 90%;
+    }
+}
+
+/* Stiluri pentru ecrane mijlocii */
+@media (max-width: 1001px) {
+    header {
+        width: 100%;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
+    .menu-toggle .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+    }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer, img {
+        width: 100%;
+    }
+    footer {
+        height: 48vh;
+    }
+    .logo img {
+        width: 150px;
+        height: 15vh;
+    }
+    .donation-section {
+        padding: 0px;
+        text-align: center;
+    }
+    button{
+        width: 60%;
+        padding:0px;
+        height: 5vh;
+        margin-left: 15%;
+    }
+    .donation-form {
+        width: 60%;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+/* Stiluri pentru ecrane mici */
+@media (max-width < 792px) {
+    header {
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
+    form {
+        width: 100%;
+        padding: 5%;
+        height: 85vh;
+    }
+}
+@media(width < 600px){
+    header {
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .logo img{
+        width: 100px;
+        height: 12vh;
+    }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
+    form {
+        width: 100%;
+        padding: 5%;
+        height: 85vh;
+    }
+    button{
+        width: 60%;
+        padding:0px;
+        height: 5vh;
+        margin-left: 15%;
+    }
+    .donation-form {
+        width: 100%;
+    }
+}
+@media(width < 410px){
+    header {
+        padding: 50px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        width: 100%;
+    }
+    .logo img{
+        width: 80px;
+        height: 9vh;
+    }
+    #disspaear {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #198754;
+        width: 100%;
+        top: 160px;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    .navigation ul > li > a {
+        font-size: 14px;
+    }
+    .navigation ul.active {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    .social-icons {
+        display: none;
+    }
+    form {
+        width: 100%;
+        padding: 5%;
+        height: 85vh;
+    }
+    button{
+        width: 60%;
+        padding:0px;
+        height: 5vh;
+        margin-left: 15%;
+    }
+    .donation-form {
+        width: 100%;
+    }
+}
+/* Stiluri pentru ecrane foarte mici */
