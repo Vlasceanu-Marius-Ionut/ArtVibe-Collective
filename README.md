@@ -1,2 +1,2 @@
-Gotta add better size to the images.
+Gotta add better size to the images
 
