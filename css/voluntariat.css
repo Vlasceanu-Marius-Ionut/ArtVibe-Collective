@@ -217,11 +217,9 @@
     }
 
     #scrollToTopBtn {
-        width: 40px;
-        height: 40px;
-        font-size: 15px;
         position: absolute;
-        bottom: 270px;
+        left: 82%;
+        top: -15%;
     }
 
     footer > h1 {
@@ -299,6 +297,11 @@
         padding: 5%;
         margin: 20px;
     }
+    #scrollToTopBtn {
+        position: absolute;
+        left: 82%;
+        top: -17%;
+    }
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 601px */
@@ -357,6 +360,11 @@
         width: 55%;
         margin: 5px;
     }
+    #scrollToTopBtn {
+        position: absolute;
+        left: 82%;
+        top: -15%;
+    }
 }
 @media(width < 450px){
     .educatier,
@@ -377,11 +385,16 @@
         align-items: center;
         justify-content: center;
     }
+    #scrollToTopBtn {
+        position: absolute;
+        left: 82%;
+        top: -15%;
+    }
     
 }
 
 /* Media query pentru ecrane cu lățime mai mică de 376px */
-@media (width < 377px) {
+@media (width < 375px) {
     #scrollToTopBtn {
         position: absolute;
         left: 65%;
@@ -447,5 +460,13 @@
     #inCeConsta img {
         width: 45%;
         margin: 5px;
+    }
+    #scrollToTopBtn {
+        position: absolute;
+        left: 82%;
+        top: -20%;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
     }
 }
